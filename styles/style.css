@@ -289,3 +289,42 @@ img{
     cursor: pointer;
     
 }
+/* footer-section-style */
+.footer-area{
+    background: black;
+    color: #fff;
+    margin-top: 80px;
+    padding: 80px;
+}
+.footer-area hr{
+  
+ 
+    border: 1px solid #141414;
+    margin: 50px 0;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+.address-left p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.address-right p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.address-right p span{}
+.address-right p span img{
+    width:24px;
+}
+.address-menu ul{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.address-menu ul li{
+    list-style: none;
+}
